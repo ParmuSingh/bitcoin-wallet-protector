@@ -13,7 +13,9 @@ When you encrypt your wallet, it'll create certain files. You need to take care 
 
 # Dependencies
 - Python 3.x
+
 - pycryptodome
+
 - steghide (commandline tool)
 
 The encryption used is AES in EAX mode.
