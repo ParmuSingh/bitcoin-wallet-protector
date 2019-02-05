@@ -4,11 +4,13 @@ This is a commandline tool to encrypt your bitcoin wallet (or any message) and t
 # Usage
 
 To encrypt your wallet
+```
 btcwalletprotector encrypt -w testwallet.txt -p password
-
+```
 To decrypt your wallet
+```
 btcwalletprotector decrypt -w encrypted_wallet.bin -p password
-
+```
 When you encrypt your wallet, it'll create certain files. You need to take care of encrypted_wallet.bin and definitely_not_a_key.jpg. The image file contains your encryption keys which are hidden in that image. To decrypt that key, you'll need that password, so keep that password long and secure. Make sure you test everything.
 
 If you get UnicodeError, just try again. Make sure you test both encrypt and decrypt.
