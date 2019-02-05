@@ -1,0 +1,1 @@
+hello this is a test of btc wallet protector. this command line tool works by encrypting the wallet using AES and then hiding the key in a password protected image of gary the metrosexual fruitcake. Make sure your password is long enough to be secure.
