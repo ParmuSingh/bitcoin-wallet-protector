@@ -12,9 +12,9 @@ btcwalletprotector decrypt -w encrypted_wallet.bin -p password
 When you encrypt your wallet, it'll create certain files. You need to take care of encrypted_wallet.bin and definitely_not_a_key.jpg. The image file contains your encryption keys which are hidden in that image. To decrypt that key, you'll need that password, so keep that password long and secure.
 
 # Dependencies
-Python 3.x
-pycryptodome
-steghide (commandline tool)
+- Python 3.x
+- pycryptodome
+- steghide (commandline tool)
 
 The encryption used is AES in EAX mode.
 
